@@ -28,6 +28,8 @@ const Welcome = () => {
                     setDishes(dishesList);
                 } else {
                     // Fallback to placeholder data if no dishes in Firebase
+                    //test
+                    //test2
                     setDishes(Array.from({ length: 16 }, (_, i) => ({
                         id: i.toString(),
                         title: `Placeholder ${i + 1}`,
