@@ -1,0 +1,1 @@
+import { StyleSheet, Text, Image, FlatList } from "react-native";
